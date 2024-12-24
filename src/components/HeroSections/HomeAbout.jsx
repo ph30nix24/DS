@@ -58,7 +58,7 @@ const HomeAbout = () => {
         })
     }, [])
   return (
-    <div className='w-full px-3 py-5 bg-HomeAbout sm:px-8 relative -z-10'>
+    <div className='w-full px-3 py-5 bg-HomeAbout sm:px-8 relative -z-10 '>
         <div className='w-[200px] h-[200px] hidden lg:block bg-[#fea8af] shadow-heroPink rounded-full absolute top-0 left-0 -z-10'></div>
         <div className='w-[200px] h-[200px] hidden lg:block bg-[#fea8af] shadow-heroPink rounded-full absolute bottom-10 right-0 -z-10'></div>
         <h1 className='font-heading text-[6vw] md:text-[4vw] md:py-10 font-medium text-center underline md:no-underline leading-relaxed' id="aboutHeading">

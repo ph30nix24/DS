@@ -10,7 +10,7 @@ import HomeFooter from '../components/HeroSections/HomeFooter';
 
 const Home = () => {
   return (
-    <div className='w-full relative z-10'>
+    <div className='w-screen relative z-10 overflow-hidden'>
       <HomeNavbar/>
       <HomeHero/>
       <HomeAbout/>
